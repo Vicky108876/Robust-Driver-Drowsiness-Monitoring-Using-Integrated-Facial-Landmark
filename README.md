@@ -29,13 +29,14 @@ The system is lightweight, non-intrusive, and suitable for real-time deployment.
 
 ---
 
-## 🖼️ Live Camera Input
+## 1. 🖼️ Live Camera Input
 
 The system captures live video feed from the webcam.
 
 The captured frames are continuously processed for driver monitoring.
 
-<img width="932" height="511" alt="image" src="https://github.com/user-attachments/assets/861eb8da-4b69-469b-8652-54c8cbf84048" />
+<img width="1283" height="488" alt="image" src="https://github.com/user-attachments/assets/a16b3e45-ad44-425a-aab3-77224a2b3180" />
+
 
 Live Driver Face Detection
 
@@ -51,7 +52,8 @@ This enables accurate tracking of:
 - Mouth landmarks
 - Head pose coordinates
 
-**Output:**  
+<img width="826" height="551" alt="image" src="https://github.com/user-attachments/assets/1e3fa26b-5b22-4919-ae41-43467bc4e160" />
+
 Detected Facial Mesh Overlay
 
 ---
@@ -69,7 +71,8 @@ Detects yawning behavior.
 ### Head Pose Estimation
 Tracks abnormal head movement.
 
-**Output:**  
+<img width="422" height="425" alt="image" src="https://github.com/user-attachments/assets/56954e44-40c2-471a-be22-0d68afe8c12f" />
+  
 Real-time feature values
 
 ---
