@@ -88,9 +88,6 @@ Extracted features undergo preprocessing:
 
 This improves classification accuracy.
 
-**Output:**  
-Optimized feature vector
-
 ---
 
 ## 🧠 Driver State Classification
@@ -103,7 +100,7 @@ The classifier predicts driver state as:
 - Microsleep
 - Yawning
 #1. Alert
-<img width="1245" height="686" alt="image" src="https://github.com/user-attachments/assets/6fc4a2f5-9295-4a8c-8209-31bc02b5786f" />
+<img width="1100" height="606" alt="image" src="https://github.com/user-attachments/assets/9c58b22f-7a4b-4f10-aa41-f8d4b47d11b7" />
 #2. Microsleep
 <img width="1245" height="686" alt="image" src="https://github.com/user-attachments/assets/e945009d-da99-4f4f-b1a5-1292ac23224f" />
 #3. Yawning:
