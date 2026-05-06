@@ -1,5 +1,14 @@
 # Robust-Driver-Drowsiness-Monitoring-Using-Integrated-Facial-Landmark
-A real-time driver drowsiness detection system is an AI-powered real-time monitoring software that detects driver fatigue using integrated facial landmark analysis. The system combines MediaPipe Face Mesh, geometric feature extraction (EAR, MAR, Head Pose), and an optimized Multi-Layer Perceptron (MLP) classifier to identify drowsiness-related behaviors such as microsleep, yawning, and abnormal head movement.
+A real-time AI-powered driver monitoring system that detects driver fatigue using facial landmark analysis and machine learning.
+
+This system combines:
+
+MediaPipe Face Mesh (468 landmarks)
+Geometric feature extraction (EAR, MAR)
+Rule-based head pose estimation
+Multi-Layer Perceptron (MLP) classifier
+
+to identify drowsiness behaviors such as microsleep, yawning, and abnormal head movement.
 
 ---
 
@@ -9,8 +18,7 @@ You can download the dataset here:
 
 👉 https://drive.google.com/drive/folders/13kGo1QaYPAbude5fUyJ8DQuy1fN-QTF_?usp=drive_link
 
-Dataset Name:  
-**Frame Level Driver Drowsiness Detection (FL3D)**
+Dataset Name:  **Frame Level Driver Drowsiness Detection (FL3D)**
 
 
 ## 🚗 About the Project
