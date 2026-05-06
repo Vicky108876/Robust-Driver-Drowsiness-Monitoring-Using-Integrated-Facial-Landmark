@@ -4,8 +4,11 @@ A real-time AI-powered driver monitoring system that detects driver fatigue usin
 This system combines:
 
 MediaPipe Face Mesh (468 landmarks)
+
 Geometric feature extraction (EAR, MAR)
+
 Rule-based head pose estimation
+
 Multi-Layer Perceptron (MLP) classifier
 
 to identify drowsiness behaviors such as microsleep, yawning, and abnormal head movement.
