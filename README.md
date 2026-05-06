@@ -103,6 +103,18 @@ The classifier predicts driver state as:
 # 3. Yawning:
 <img width="1283" height="686" alt="image" src="https://github.com/user-attachments/assets/a86f9abb-ae51-4841-9cf9-2a5851d43c22" />
 
+# 5. Look right:
+<img width="940" height="480" alt="report_20260507_005357" src="https://github.com/user-attachments/assets/aafa7c25-74be-4c3b-a8f6-d831d846982d" />
+
+# 6. Look Left:
+<img width="940" height="480" alt="report_20260507_005354" src="https://github.com/user-attachments/assets/99c5b684-6cfb-4745-84ac-d8c881c026c5" />
+
+# 7. Look Up:
+<img width="940" height="480" alt="report_20260507_005407" src="https://github.com/user-attachments/assets/ce36c394-3457-43aa-b129-6744182f22dc" />
+
+# 8. Look Down:
+<img width="940" height="480" alt="report_20260507_005402" src="https://github.com/user-attachments/assets/0ca878d2-d778-4238-a9d6-728a3185e40a" />
+
 ---
 
 ## 6. 🔔 Alert Generation
