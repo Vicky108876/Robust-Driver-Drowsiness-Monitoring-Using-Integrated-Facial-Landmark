@@ -58,7 +58,7 @@ Detected Facial Mesh Overlay
 
 ---
 
-##3. 🎯 Feature Extraction
+## 3. 🎯 Feature Extraction
 
 The extracted landmarks are used to compute:
 
@@ -78,7 +78,7 @@ Real-time feature values
 
 ---
 
-##4. 📊 Feature Processing
+## 4. 📊 Feature Processing
 
 Extracted features undergo preprocessing:
 
@@ -90,7 +90,7 @@ This improves classification accuracy.
 
 ---
 
-##5. 🧠 Driver State Classification
+## 5. 🧠 Driver State Classification
 
 The processed features are passed to the MLP classifier.
 
@@ -100,11 +100,13 @@ The classifier predicts driver state as:
 - Microsleep
 - Yawning
   
-#1. Alert
+# 1. Alert
 <img width="1100" height="606" alt="image" src="https://github.com/user-attachments/assets/9c58b22f-7a4b-4f10-aa41-f8d4b47d11b7" />
-#2. Microsleep
+
+# 2. Microsleep
 <img width="1245" height="686" alt="image" src="https://github.com/user-attachments/assets/e945009d-da99-4f4f-b1a5-1292ac23224f" />
-#3. Yawning:
+
+# 3. Yawning:
 <img width="1283" height="686" alt="image" src="https://github.com/user-attachments/assets/a86f9abb-ae51-4841-9cf9-2a5851d43c22" />
 
 ---
