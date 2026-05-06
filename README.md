@@ -71,8 +71,9 @@ Detects yawning behavior.
 ### Head Pose Estimation
 Tracks abnormal head movement.
 
-<img width="422" height="425" alt="image" src="https://github.com/user-attachments/assets/56954e44-40c2-471a-be22-0d68afe8c12f" />
-  
+
+<img width="241" height="289" alt="image" src="https://github.com/user-attachments/assets/f80c522f-64a7-4cd8-87b7-8edbc22da90f" />
+
 Real-time feature values
 
 ---
