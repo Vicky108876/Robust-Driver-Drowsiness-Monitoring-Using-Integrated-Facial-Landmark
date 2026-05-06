@@ -122,19 +122,6 @@ Drowsiness Alert Activated
 
 ---
 
-## 📈 Performance
-
-### Model Accuracy
-**86%**
-
-### Detection Performance
-
-- Alert Detection: High Accuracy
-- Yawning Detection: Excellent
-- Microsleep Detection: Moderate
-
----
-
 ## 🛠️ Technologies Used
 
 - Python
