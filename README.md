@@ -102,10 +102,12 @@ The classifier predicts driver state as:
 - Alert
 - Microsleep
 - Yawning
-
-**Example Output:**  
-Classified as: **Microsleep**  
-Confidence: **86%**
+#1. Alert
+<img width="1245" height="686" alt="image" src="https://github.com/user-attachments/assets/6fc4a2f5-9295-4a8c-8209-31bc02b5786f" />
+#2. Microsleep
+<img width="1245" height="686" alt="image" src="https://github.com/user-attachments/assets/e945009d-da99-4f4f-b1a5-1292ac23224f" />
+#3. Yawning:
+<img width="1283" height="686" alt="image" src="https://github.com/user-attachments/assets/a86f9abb-ae51-4841-9cf9-2a5851d43c22" />
 
 ---
 
@@ -116,7 +118,8 @@ If drowsiness is detected:
 - Audio alert is triggered instantly
 - Driver is warned in real-time
 
-**Output:**  
+<img width="1245" height="686" alt="image" src="https://github.com/user-attachments/assets/86d8db14-3f17-4531-9ef1-cfc2d4830731" />
+
 Drowsiness Alert Activated
 
 ---
