@@ -42,7 +42,7 @@ Live Driver Face Detection
 
 ---
 
-## 📥 Facial Landmark Detection
+## 2. 📥 Facial Landmark Detection
 
 MediaPipe Face Mesh detects **468 facial landmarks** from each frame.
 
@@ -58,7 +58,7 @@ Detected Facial Mesh Overlay
 
 ---
 
-## 🎯 Feature Extraction
+##3. 🎯 Feature Extraction
 
 The extracted landmarks are used to compute:
 
@@ -78,7 +78,7 @@ Real-time feature values
 
 ---
 
-## 📊 Feature Processing
+##4. 📊 Feature Processing
 
 Extracted features undergo preprocessing:
 
@@ -90,7 +90,7 @@ This improves classification accuracy.
 
 ---
 
-## 🧠 Driver State Classification
+##5. 🧠 Driver State Classification
 
 The processed features are passed to the MLP classifier.
 
@@ -109,7 +109,7 @@ The classifier predicts driver state as:
 
 ---
 
-## 🔔 Alert Generation
+##6. 🔔 Alert Generation
 
 If drowsiness is detected:
 
