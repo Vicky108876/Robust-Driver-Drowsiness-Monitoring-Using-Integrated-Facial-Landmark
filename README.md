@@ -111,7 +111,7 @@ The classifier predicts driver state as:
 
 ---
 
-##6. 🔔 Alert Generation
+## 6. 🔔 Alert Generation
 
 If drowsiness is detected:
 
