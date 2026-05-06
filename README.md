@@ -10,12 +10,11 @@ Driver Drowsiness Detection System is an AI-powered real-time monitoring softwar
 
 You can download the dataset here:
 
-👉 https://www.kaggle.com/datasets/matjazmuc/frame-level-driver-drowsiness-detection-fl3d
+👉 https://drive.google.com/drive/folders/13kGo1QaYPAbude5fUyJ8DQuy1fN-QTF_?usp=drive_link
 
 Dataset Name:  
 **Frame Level Driver Drowsiness Detection (FL3D)**
 
----
 
 ## 🚗 About the Project
 
@@ -27,7 +26,6 @@ The complete workflow includes:
 
 The system is lightweight, non-intrusive, and suitable for real-time deployment.
 
----
 
 ## 1. 🖼️ Live Camera Input
 
@@ -39,8 +37,6 @@ The captured frames are continuously processed for driver monitoring.
 
 
 Live Driver Face Detection
-
----
 
 ## 2. 📥 Facial Landmark Detection
 
@@ -55,8 +51,6 @@ This enables accurate tracking of:
 <img width="826" height="551" alt="image" src="https://github.com/user-attachments/assets/1e3fa26b-5b22-4919-ae41-43467bc4e160" />
 
 Detected Facial Mesh Overlay
-
----
 
 ## 3. 🎯 Feature Extraction
 
