@@ -1,17 +1,14 @@
-# Tri-Sense DDD: An Efficient Multi-Feature Driver Alertness Monitoring System Facial Landmark
-A real-time AI-powered driver monitoring system that detects driver fatigue using facial landmark analysis and machine learning.
+# Tri-Sense DMS: An Efficient Multi-Feature Driver Alertness Monitoring System Using Facial Landmark Analysis
+A real-time AI-powered driver monitoring system designed to detect driver fatigue and distraction using facial landmark analysis, machine learning, and rule-based behavioral monitoring.
 
-This system combines:
+The proposed framework integrates:
 
-MediaPipe Face Mesh (468 landmarks)
-
+MediaPipe Face Mesh (468 facial landmarks)
 Geometric feature extraction (EAR, MAR)
-
-Rule-based head pose estimation
-
+Rule-based head pose estimation using facial landmark orientation analysis
 Multi-Layer Perceptron (MLP) classifier
 
-to identify drowsiness behaviors such as microsleep, yawning, and abnormal head movement.
+to identify driver alertness states such as microsleep, yawning, and directional head distraction in real time
 
 ---
 
@@ -48,13 +45,15 @@ Live Driver Face Detection
 
 ## 2. 📥 Facial Landmark Detection
 
-MediaPipe Face Mesh detects **468 facial landmarks** from each frame.
+MediaPipe Face Mesh detects 468 facial landmarks from each video frame.
 
 This enables accurate tracking of:
 
-- Eye landmarks
-- Mouth landmarks
-- Head pose coordinates
+Eye landmarks
+Mouth landmarks
+Nose landmarks
+Facial contour points
+Head pose orientation coordinates
 
 <img width="826" height="551" alt="image" src="https://github.com/user-attachments/assets/1e3fa26b-5b22-4919-ae41-43467bc4e160" />
 
@@ -70,8 +69,18 @@ Detects prolonged eye closure and microsleep.
 ### Mouth Aspect Ratio (MAR)
 Detects yawning behavior.
 
-### Head Pose Estimation
-Tracks abnormal head movement.
+### Rule-Based Head Pose Estimation
+
+Tracks abnormal driver head movement using facial landmark orientation analysis.
+
+The module identifies:
+
+Looking Left
+Looking Right
+Looking Up
+Looking Down
+
+to detect driver distraction and inattentive behavior.
 
 
 <img width="241" height="289" alt="image" src="https://github.com/user-attachments/assets/f80c522f-64a7-4cd8-87b7-8edbc22da90f" />
@@ -82,43 +91,60 @@ Real-time feature values
 
 ## 4. 📊 Feature Processing
 
-Extracted features undergo preprocessing:
+The extracted features undergo preprocessing before classification.
 
-- Data cleaning
-- Label encoding
-- Feature normalization
+Processing steps include:
 
-This improves classification accuracy.
+Data cleaning
+Feature extraction
+Label encoding
+Feature normalization using StandardScaler
+
+These preprocessing techniques improve classification performance and model stability.
 
 ---
 
 ## 5. 🧠 Driver State Classification
 
-The processed features are passed to the MLP classifier.
+The processed feature vectors are supplied to the Multi-Layer Perceptron (MLP) classifier.
 
-The classifier predicts driver state as:
+The classifier predicts driver states including:
 
-- Alert
-- Microsleep
-- Yawning
+Alert
+Microsleep
+Yawning
+
+along with directional distraction states obtained through rule-based head pose estimation.
   
 # 1. Alert
 <img width="1100" height="606" alt="image" src="https://github.com/user-attachments/assets/9c58b22f-7a4b-4f10-aa41-f8d4b47d11b7" />
 
+---
+
 # 2. Microsleep
 <img width="1245" height="686" alt="image" src="https://github.com/user-attachments/assets/e945009d-da99-4f4f-b1a5-1292ac23224f" />
+
+---
 
 # 3. Yawning:
 <img width="1283" height="686" alt="image" src="https://github.com/user-attachments/assets/a86f9abb-ae51-4841-9cf9-2a5851d43c22" />
 
+---
+
 # 5. Look right:
 <img width="940" height="480" alt="report_20260507_005357" src="https://github.com/user-attachments/assets/aafa7c25-74be-4c3b-a8f6-d831d846982d" />
+
+---
 
 # 6. Look Left:
 <img width="940" height="480" alt="report_20260507_005354" src="https://github.com/user-attachments/assets/99c5b684-6cfb-4745-84ac-d8c881c026c5" />
 
+---
+
 # 7. Look Up:
 <img width="940" height="480" alt="report_20260507_005407" src="https://github.com/user-attachments/assets/ce36c394-3457-43aa-b129-6744182f22dc" />
+
+---
 
 # 8. Look Down:
 <img width="940" height="480" alt="report_20260507_005402" src="https://github.com/user-attachments/assets/0ca878d2-d778-4238-a9d6-728a3185e40a" />
@@ -127,13 +153,24 @@ The classifier predicts driver state as:
 
 ## 6. 🔔 Alert Generation
 
-If drowsiness is detected:
+Whenever fatigue or distraction is detected:
 
-- Audio alert is triggered instantly
-- Driver is warned in real-time
+Audio alerts are activated instantly
+Real-time warning notifications are displayed
+Drivers are alerted immediately to improve road safety
+
+The alert system is implemented using Pygame-based audio notifications.
 
 <img width="1245" height="686" alt="image" src="https://github.com/user-attachments/assets/86d8db14-3f17-4531-9ef1-cfc2d4830731" />
 
 Drowsiness Alert Activated
 
-
+## 🛠️ Technologies Used
+Python
+OpenCV
+MediaPipe Face Mesh
+NumPy
+Pandas
+Scikit-learn
+Pygame
+Matplotlib
