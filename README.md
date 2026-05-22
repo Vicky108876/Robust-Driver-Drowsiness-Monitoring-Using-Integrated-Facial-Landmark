@@ -167,10 +167,17 @@ Drowsiness Alert Activated
 
 ## 🛠️ Technologies Used
 Python
+
 OpenCV
+
 MediaPipe Face Mesh
+
 NumPy
+
 Pandas
+
 Scikit-learn
+
 Pygame
+
 Matplotlib
