@@ -166,18 +166,17 @@ The alert system is implemented using Pygame-based audio notifications.
 Drowsiness Alert Activated
 
 ## 🛠️ Technologies Used
-Python
 
-OpenCV
+opencv-python==4.12.0.88
 
-MediaPipe Face Mesh
+pandas==2.2.3
 
-NumPy
+matplotlib==3.10.1
 
-Pandas
+mediapipe==0.10.9
 
-Scikit-learn
+numpy==2.1.3
 
-Pygame
+scikit-learn==1.6.1
 
-Matplotlib
+pygame==2.6.1
